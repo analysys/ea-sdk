@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.analysys</groupId>
   <artifactId>easdk</artifactId>
-  <version>0.2.0</version>
+  <version>0.6.0</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -73,6 +73,12 @@
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
       <version>1.1.70.android</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.yhaolpz</groupId>
+      <artifactId>FloatWindow</artifactId>
+      <version>1.0.9</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
